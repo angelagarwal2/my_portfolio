@@ -5,57 +5,57 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <h1>Angel Agarwal</h1>
-        <p>Web Developer | CSE Student | Tech Enthusiast</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
+    <nav class="navbar">
+        <a href="#home" class="logo">WebDeveloper</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contacts">Contact</a></li>
-        </ul>
+            </ul>
     </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a Computer Science undergraduate at JIIT Noida with a strong passion for problem-solving and building impactful tech solutions. Currently, I'm exploring Data Structures & Algorithms, Web Development, and AI/ML. I actively participate in hackathons, contribute to open-source, and enjoy transforming ideas into functional, well-designed applications. Skilled in Java, C++, HTML, CSS, and currently learning JavaScript frameworks, I'm focused on enhancing my technical profiles and working on real-world projects that solve meaningful problems.</p>
+    
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Tech Enthusiast</h1>
+                <p>Turning ideas into code and clean designs!</p>
+                <p class="highlight">Learning DSA and Web Development</p>
+                <a href="#contacts" class="cta-button">Let's Connect</a>
+            </div>
+            <div class="hero-img">
+                <img src="picture.jpeg" alt="My Profile Picture" class="profile-img">
+            </div>
         </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>Class 10(ICSE) Science-CMS Mahanagar(Graduated-2020)</li>
-                <li>Class 12(ISC) PCM with Computer Science-CMS Mahanagar(Graduated-2023)</li>
-                <li>B.Tech CSE-JIIT, Noida (2024-2028)</li>
-            </ul>
+        <section id="skills" class="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>Java, C, C++, HTML, CSS, JavaScript(Basic)</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Tech Stack</h3>
+                    <p>Git, GitHub, Visual Studio Code</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>Interests</h3>
+                    <p>Web Development, Data Structures And Algorithms, Open Source, Hackathons</p>
+                </div>
+            </div>
         </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Java, C, C++, HTML, CSS, JavaScript(Basic)</li>
-                <li>Git, GitHub, Visual Studio Code</li>
-                <li>Web Development, Data Structures And Algorithms, Open Source, Hackathons</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>Survey Form - HTML/CSS</li>
-                <li>My Portfolio Page</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: angel.agarwal28feb@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/angel-agarwal-97794432a/">https://www.linkedin.com/in/angel-agarwal-97794432a/</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Angel Agarwal</p>
+        <footer>
+        <p>&copy; 2025 Angel Agarwal. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

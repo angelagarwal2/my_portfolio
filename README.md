@@ -2,7 +2,7 @@
 <p>Welcome to my personal interactive portfolio website built with HTML and CSS! This project showcases my education, skills, experience, and projects in a clean, responsive, and professional layout.</p>
 </br>
 <h4>🔗 Live Demo</h4>
-<p><a href="https://angelagarwal2.github.io/my_resume/">https://angelagarwal2.github.io/my_resume/</a></p>
+<p><a href="https://angelagarwal2.github.io/my_portfolio/">https://angelagarwal2.github.io/my_portfolio/</a></p>
 </br>
 <h4>📌 Features</h4>
 <ul>

@@ -226,7 +226,7 @@ body{
 .form-label{
   font-weight:500;
 }
-.form-input, .font-textarea{
+.form-input, .form-textarea{
   padding:0.8rem 1rem;
   background-color: #222;
   border:1px solid #333;
@@ -235,7 +235,7 @@ body{
   font-size:1rem;
   transition: all 0.3s ease;
 }
-.form-input:focus, .font-textarea:focus{
+.form-input:focus, .form-textarea:focus{
   outline:none;
   border-color:var(--accent);
   box-shadow: 0 0 10px rgba(0,136,255,0.3);

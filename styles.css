@@ -137,7 +137,25 @@ body{
   position:relative;
   overflow: hidden;
 }
-
+.section-title{
+  font-size:2.5rem;
+  margin-bottom:3rem;
+  text-align:center;
+  position: relative;
+  display:inline-block;
+  left:50%;
+  transform:translateX(-50%)
+}
+.section-title::after{
+  content:'';
+  position:absolute;
+  bottom:-10px;
+  left:0;
+  width:100%;
+  height:3px;
+  background: linear-gradient(90deg,var(--accent),#27acae);
+  border-radius:3px;
+}
 .skills{
   padding:5rem 5%;
   background: var(--darker-bg);
@@ -189,7 +207,58 @@ body{
   color:var(--accent);
   transform:translateY(-3px);
 }
-
+.contacts{
+  padding:5rem 5%;
+  background-color: var(--darker-bg);
+  position:relative;
+}
+.contact-form{
+  max-width:600px;
+  margin:0 auto;
+  display:grid;
+  gap:1.5rem;
+}
+.form-group{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+.form-label{
+  font-weight:500;
+}
+.form-input, .font-textarea{
+  padding:0.8rem 1rem;
+  background-color: #222;
+  border:1px solid #333;
+  border-radius: 5px;
+  color:white;
+  font-size:1rem;
+  transition: all 0.3s ease;
+}
+.form-input:focus, .font-textarea:focus{
+  outline:none;
+  border-color:var(--accent);
+  box-shadow: 0 0 10px rgba(0,136,255,0.3);
+}
+.form-textarea{
+  min-height:150px;
+  resize:vertical;
+}
+.submit-btn{
+  background: linear-gradient(90deg,var(--accent),#27acae);
+  color:white;
+  border:none;
+  padding:1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor:pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,136,255,0.3);
+}
+.submit-btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(0,136,255,0.5);
+}
 @media(max-width:768px){
   .hero{
     flex-direction: column;

@@ -27,7 +27,7 @@
   <li>📍 Computer Science Undergrad @ JIIT Noida</li>
   <li>💡 Exploring Web Dev, DSA & AI/ML</li>
   <li>🌐 <a href="https://www.linkedin.com/in/angel-agarwal-97794432a/">LinkedIn</a></li>
-  <li>✉️ <a href="angel.agarwal28feb@gmail.com">Mail</a></li>
+  <li>✉️ <a href="mailto:angel.agarwal28feb@gmail.com">Mail</a></li>
 </ul>
 </br>
 <h4>📝 License</h4>

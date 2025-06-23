@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
 
 html {
@@ -10,10 +10,10 @@ html {
 }
 
 :root{
-  --dark-bg:#0a0a0a;
-  --darker-bg:#050505;
-  --accent:#3F8EFc;
-  --accent-glow:rgba(46, 56, 204, 0.4);
+  --dark-bg:#0C0C0C;
+  --darker-bg:#0A0A0A;
+  --accent:#2563EB;
+  --accent-glow:rgba(37, 99, 235, 0.3);
   --text:#ffffff;
 }
 
@@ -129,7 +129,7 @@ body{
 .cta-button{
   display:inline-block;
   padding:1rem 2rem;
-  background: linear-gradient(45deg, var(--accent), #27acae);
+  background: linear-gradient(45deg, var(--accent), #60A5FA);
   color:white;
   border-radius:8px;
   text-decoration: none;
@@ -157,7 +157,7 @@ body{
   left:0;
   width:100%;
   height:3px;
-  background: linear-gradient(90deg,var(--accent),#27acae);
+  background: linear-gradient(90deg,var(--accent),#60A5FA);
   border-radius:3px;
 }
 .skills{
@@ -249,7 +249,7 @@ body{
   resize:vertical;
 }
 .submit-btn{
-  background: linear-gradient(90deg,var(--accent),#27acae);
+  background: linear-gradient(90deg,var(--accent),#60A5FA);
   color:white;
   border:none;
   padding:1rem;

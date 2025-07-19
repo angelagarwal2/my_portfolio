@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:hsl(0, 0%, 91%);
 }
 
 html {

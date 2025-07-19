@@ -111,12 +111,30 @@ body{
   50%{transform: translateY(-20px);}
 }
 
-.hero h1{
+.hero-heading {
   font-size: 4rem;
-  margin-bottom:1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
   background: linear-gradient(45deg, var(--accent) 30%,#ffffff 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  gap: 5px;
+}
+
+.cursor {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #000;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .hero p{

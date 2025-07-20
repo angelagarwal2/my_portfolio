@@ -1,12 +1,15 @@
-  const texts = [
-    "Tech Enthusiast",
-    "Aspiring Developer",
-    "UI/UX Learner",
-    "Web Explorer",
-    "Code Lover",
-    "Problem Solver",
-    "Open Source Learner"
-  ];
+const texts = [
+  "Student, Creator, Dreamer",
+  "Designing My Dev Story",
+  "Code Meets Curiosity",
+  "From Sketch to Screen",
+  "Learning Loudly",
+  "Small Projects, Big Dreams",
+  "Still Loading… Always Learning",
+  "Soft Edges. Sharp Code.",
+  "Click. Scroll. Smile.",
+  "Learning Never Looked This Pretty"
+];
 
   let textIndex = 0;
   let charIndex = 0;

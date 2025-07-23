@@ -10,8 +10,6 @@
   <li>🎯 Clean and modern UI</li>
   <li>💡 About Me section</li>
   <li>🛠️ Skills and Technologies</li>
-  <li>🎓 Education background</li>
-  <li>📂 Projects section</li>
   <li>📬 Contact info and links</li>
 </ul>
 </br>
@@ -19,6 +17,7 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3 (Flexbox + Media Queries)</li>
+  <li>Vanilla JS</li>
 </ul>
 </br>
 <h4>👩‍💻 Author</h4>
